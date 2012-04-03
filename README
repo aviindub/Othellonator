@@ -1,0 +1,16 @@
+The Othellonator
+a java based computer othello project
+
+This program implements a multi-threaded Alpha-Beta game tree search algorithm to find the best Othello moves for a given board.
+
+Othellonator can play human vs computer, or computer vs computer using Dr. Marietta Cameron's othello referree program.
+
+STDIN commands:
+	IW or IB - initialize as black or white
+	
+	Wc7 - move syntax. in this example, white moves to c 7.
+	
+	50 - a number (1<=n<=64) by itself declares a win. number represents the amount of squares controled by black, no matter which player is declaring the win.
+	
+	W - a color by itself (W or B) declares a pass
+	
